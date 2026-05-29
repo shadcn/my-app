@@ -8,7 +8,7 @@
       "type": "registry:lib",
       "title": "Absolute URL",
       "description": "A utility to turn any path into an absolute URL.",
-      "registryDependencies": ["base-url"],
+      "registryDependencies": ["shadcn/my-app/base-url"],
       "files": [
         {
           "path": "lib/absolute-url.ts",

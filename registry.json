@@ -2,5 +2,18 @@
   "$schema": "https://ui.shadcn.com/schema/registry.json",
   "name": "my-app",
   "homepage": "https://my-app.com",
-  "items": []
+  "items": [
+    {
+      "name": "absolute-url",
+      "type": "registry:lib",
+      "title": "Absolute URL",
+      "description": "A utility to turn any path into an absolute URL.",
+      "files": [
+        {
+          "path": "lib/absolute-url.ts",
+          "type": "registry:lib"
+        }
+      ]
+    }
+  ]
 }

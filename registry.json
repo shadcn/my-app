@@ -8,11 +8,20 @@
       "type": "registry:lib",
       "title": "Absolute URL",
       "description": "A utility to turn any path into an absolute URL.",
+      "registryDependencies": ["base-url"],
       "files": [
         {
           "path": "lib/absolute-url.ts",
           "type": "registry:lib"
-        },
+        }
+      ]
+    },
+    {
+      "name": "base-url",
+      "type": "registry:lib",
+      "title": "Base URL",
+      "description": "A utility to resolve the site's base URL from the environment.",
+      "files": [
         {
           "path": "lib/base-url.ts",
           "type": "registry:lib"

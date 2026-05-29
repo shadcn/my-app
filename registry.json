@@ -1,0 +1,6 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "my-app",
+  "homepage": "https://my-app.com",
+  "items": []
+}
